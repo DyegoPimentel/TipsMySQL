@@ -1,0 +1,7 @@
+ Busca um dado especifico na coluna e substitui por outro dado.
+
+cadastros = tabela
+data_agendada = coluna
+ 
+ UPDATE cadastros
+ SET data_agendada = REPLACE(dt_nascimento, '0000-00-00', '2020-01-01');
